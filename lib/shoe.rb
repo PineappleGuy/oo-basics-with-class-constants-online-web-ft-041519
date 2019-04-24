@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
 
     BRANDS.each do |brands|
-      if brands != brand
+      if brand != brands
          BRANDS << brand
        end
      end
